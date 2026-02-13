@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Renz Miller | Lead Frontend Developer",
+  title: "Renz Miller | Software Developer",
   description:
-    "Experienced Lead Frontend Developer with over 10 years of expertise in building enterprise-grade web applications in the banking and finance sector",
+    "Experienced Software Developer with over 10 years of expertise in building enterprise-grade web applications in the banking and finance sector",
 };
 
 export default function RootLayout({
