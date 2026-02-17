@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 export default function Home() {
   const [scrollY, setScrollY] = useState(0);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     const handleMouseMove = (e: MouseEvent) => {
@@ -236,15 +235,16 @@ export default function Home() {
                 projects using Agile methodologies. I spent more than 8 years
                 deployed on-site to various clients in Singapore, collaborating
                 closely with stakeholders to deliver enterprise-scale solutions.
-                More than 5 years experience in React, Typescript, Java, Spring
-                Boot. I have contributed to major projects for UBS, Credit
-                Suisse, Standard Chartered, United Overseas Bank, and Bank of
-                Singapore. In addition to large-scale enterprise work, I’ve also
-                built smaller applications as a full-stack developer. I focus on
-                clean, maintainable code, performance, and test-driven
-                development, with a strong emphasis on scalability, clean
-                architecture, and continuous refactoring to keep systems robust
-                and adaptable over time.
+                More than 5 years experience in ReactJS, Typescript, Java,
+                Spring Boot. I have contributed to major projects for UBS,
+                Credit Suisse, Standard Chartered, United Overseas Bank, and
+                Bank of Singapore. In addition to large-scale enterprise work,
+                I’ve also built smaller applications as a full-stack developer.
+                I focus on clean, maintainable code, performance, and
+                test-driven development ensuring code coverage above 80%, with a
+                strong emphasis on scalability, clean architecture, and
+                continuous refactoring to keep systems robust and adaptable over
+                time.
               </p>
             </div>
           </section>
@@ -285,7 +285,7 @@ export default function Home() {
                   Frontend
                 </h3>
                 <p className="text-sm text-zinc-400 leading-relaxed relative z-10">
-                  Angular, React, TypeScript, JavaScript, HTML5, CSS3,
+                  Angular, ReactJS, TypeScript, JavaScript, HTML5, CSS3,
                   Bootstrap, Material UI, WebSocket
                 </p>
               </div>
@@ -424,7 +424,7 @@ export default function Home() {
                         </li>
                       </ul>
                       <p className="text-xs text-zinc-500">
-                        React • TypeScript • Bootstrap • jQuery • Java •
+                        ReactJS • TypeScript • Bootstrap • jQuery • Java •
                         WebSocket • Spring Boot • Oracle SQL • Jenkins • Karma •
                         Jasmine
                       </p>
@@ -491,7 +491,7 @@ export default function Home() {
                         </li>
                       </ul>
                       <p className="text-xs text-zinc-500">
-                        React • TypeScript • Bootstrap • Java • Spring Boot •
+                        ReactJS • TypeScript • Bootstrap • Java • Spring Boot •
                         Hibernate
                       </p>
                     </div>
@@ -528,8 +528,8 @@ export default function Home() {
                         </li>
                       </ul>
                       <p className="text-xs text-zinc-500">
-                        React • TypeScript • Sortable.js • Masonry • Bootstrap •
-                        Java • Spring Boot • Hibernate • Swagger
+                        ReactJS • TypeScript • Sortable.js • Masonry • Bootstrap
+                        • Java • Spring Boot • Hibernate • Swagger
                       </p>
                     </div>
 
@@ -561,8 +561,8 @@ export default function Home() {
                         </li>
                       </ul>
                       <p className="text-xs text-zinc-500">
-                        React • TypeScript • PrimeNG • Bootstrap • JavaScript •
-                        Java • Spring Boot
+                        ReactJS • TypeScript • PrimeNG • Bootstrap • JavaScript
+                        • Java • Spring Boot
                       </p>
                     </div>
                   </div>
